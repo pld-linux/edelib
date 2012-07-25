@@ -10,7 +10,7 @@ Version:	2.0
 Release:	1
 License:	LGPL v2.1+
 Group:		Libraries
-Source0:	http://download.sourceforge.net/ede/%{name}-%{version}.tar.gz
+Source0:	http://downloads.sourceforge.net/ede/%{name}-%{version}.tar.gz
 # Source0-md5:	4964c7395a097bf747ebf9da1f836e6e
 Patch0:		%{name}-ksh.patch
 Patch1:		%{name}-am.patch
@@ -27,16 +27,17 @@ Requires:	glib2 >= 1:2.26.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-edelib is small and portable C++ library for EDE (Equinox Desktop Environment).
+edelib is small and portable C++ library for EDE (Equinox Desktop
+Environment).
 
-Aims are to provide enough background for easier EDE components construction
-and development.
+Aims are to provide enough background for easier EDE components
+construction and development.
 
 %description -l pl.UTF-8
 edelib jest małą przenośną biblioteką C++ dla środowiska EDE.
 
-Jej celem jest dostarczenie wystarczającej podstawy dla konstruowania i rozwijania
-komponentów środowiska EDE.
+Jej celem jest dostarczenie wystarczającej podstawy dla konstruowania
+i rozwijania komponentów środowiska EDE.
 
 %package devel
 Summary:	edelib header files
